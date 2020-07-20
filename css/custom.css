@@ -1,0 +1,119 @@
+.error{
+    font-size: 14px;
+    color: #dc3545;
+    width: 100%;
+
+}
+.login-error{
+    text-align: center;
+}
+.success{
+    color: #0f6848;
+}
+.header-bar {
+    padding: 15px !important;
+    background: #79c465 !important;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-control:focus {
+    border: 1px solid #79c465;
+}
+select:focus, select:active, select option{
+    color: #79c465;
+}
+.header-bar a, .header-bar a:hover{
+    color: #FFFFFF;
+}
+.login-form{
+    padding: 0px !important;
+}
+body{
+    font-size: 14px !important;
+}
+.table td, .table th {
+    padding: 10px 5px;
+}
+a, a:hover{
+    text-decoration: none;
+}
+input::placeholder{
+    font-size: 14px !important;
+}
+.font-size-12{
+    font-size: 12px;
+}
+#hospital_list{
+    cursor: pointer;
+}
+.main{
+    max-width: 800px;
+    margin:0px auto;
+}
+.hospital-detials-table{
+    width:97%;
+    margin:0px auto;
+}
+.covit-table-title{
+    text-align: center;
+}
+.hospital-cabin-title{
+    width:40% !important;
+}
+.hospital-normal{
+    width:30% !important;
+}
+.hospital-covid{
+    width:30% !important;
+}
+.margin_0{
+    margin: 0px;
+    text-align: left;
+}
+.last_updated{
+    font-size: 10px;
+    font-style: italic;
+}
+.bed_type{
+    float: left;
+    width: 65%;
+    text-align: right;
+    padding-right: 5% !important;
+}
+.bed_number{
+    float: left;
+    text-align: center;
+}
+.fr-1{
+    padding-left: 4% !important;
+}
+.table {
+    border-left: 1px solid #e3e6f0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container-login {
+        margin-left:auto;
+        margin-right:auto;
+        width:80%;
+        margin:0px auto !important;
+    }
+    .table .thead-light th {
+        font-size: 12px !important;
+    }
+    .bed_type {
+        width: 76%;
+        text-align: right !important;
+        font-size: 12px !important;
+        padding-left: 5% !important;
+    }
+    .bed_number {
+        text-align: center !important;
+        font-size: 12px !important;
+    }
+    .fr-1{
+        padding-left: 1% !important;
+    }
+}
